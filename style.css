@@ -1,0 +1,83 @@
+/* Colors and fonts */
+body  {
+    background: #D2C6B2;
+    color: rgb(50; 50; 50);
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+}
+
+ h1, h2, h3 {
+   color: #442726;
+  font-family: 'Cinzel', serif;
+}
+
+h1 {
+	font-size: 32px
+}
+
+h2, h3 {
+	font-size: 20px
+}  
+
+a {
+	font-family: 'Cinzel', serif;
+	text-decoration: none;
+	color: white;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+a:hover {
+	color: black;
+}
+
+
+
+/* Custom design */
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px){
+	.container{ 
+		width: 600px
+	}
+}
+
+@media (max-width: 500px){
+	.container{
+		width: 400px
+	}
+}
+
+
+.card-white {
+	background-color: beige;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+.img-circle {
+	border-radius: 50%
+}
+.btn-blue {
+	background-color:#442726;
+	color: white; 
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: black;
+	color: white; 
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+
